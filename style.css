@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(179, 131, 226);
+    font-size:4rem;
+    text-align: center;
+    opacity: 0.4;
+    margin: 40px auto;
+}
+
+form{
+    max-width: 100%;
+    width: 400px;
+}
+
+.input{
+    border: none;
+    outline: none;
+    width: 100%;
+    display: block;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+::placeholder{
+    color: #BDBDBD;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.payments{
+    margin-top: 20px;
+}
+
+.payments h2{
+    padding: 4px;
+    font-size: 2rem;
+    color: rgb(179, 131, 226);
+    opacity: 0.4;
+}
+
+@media screen and (max-width:565px){
+    h1{
+        font-size: 2rem;
+    }
+    .payments h2{
+        font-size:1.5rem;
+    }
+    .input{
+        width:80%;
+        margin: auto;
+        font-size: 1rem;
+    }
+}
